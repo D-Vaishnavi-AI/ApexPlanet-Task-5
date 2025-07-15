@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnavi's Capstone Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Vaishnavi's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Vaishnavi, a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+    <img src="https://source.unsplash.com/featured/?technology" alt="Technology" />
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <img src="https://source.unsplash.com/featured/?coding" alt="Project 1" />
+      <p>Responsive Website using Flexbox and Grid</p>
+    </div>
+    <div class="project-card">
+      <img src="https://source.unsplash.com/featured/?javascript" alt="Project 2" />
+      <p>Interactive Image Gallery with JavaScript</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Vaishnavi. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
